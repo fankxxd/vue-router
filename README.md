@@ -1,7 +1,8 @@
 # vue-router
 
 > A simple demo
-> 目前只是 vue 官方提供的 vue-router 的小例子，等工作落实了再慢慢完善...
+
+> 目前只是一个简单的 vue-router 的小例子，等工作落实了再慢慢完善...
 
 ## Build Setup
 
