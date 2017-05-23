@@ -1,0 +1,57 @@
+.top {
+	display: flex;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: #F1F1F1;
+	transition: all .6s;
+	color: #212121;
+	font-size: 24px;
+	box-shadow: 0 1px 1px 1px rgba(0, 37, 55, .25);;
+}
+
+.top img {
+	vertical-align: middle;
+	height: 100%;
+	transform: scale(.6);
+}
+
+.top img:hover {
+	animation: roll .4s infinite linear;
+}
+
+@keyframes roll {
+	from {
+		transform: scale(.6) rotateZ(0)
+	}
+	to {
+		transform: scale(.6) rotateZ(180deg)
+	}
+}
+
+.top span {
+	vertical-align: middle;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+}
+
+.tab-item {
+	flex: 1;
+	text-align: center;
+	border-top:solid 2px #F1F1F1;
+	transition: all .6s;
+	
+}
+
+.tab-item a {
+	display: block;
+	text-decoration: none;
+	color: #005caf;
+}
+.tab-item:hover {
+	border-top:solid 2px #005caf;
+}
